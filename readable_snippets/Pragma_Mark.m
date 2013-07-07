@@ -1,8 +1,9 @@
-//pragma mark
+//#pragma Mark
 //
 //
-//Completion scopes: ["ClassImplementation"]
+//Completion scopes: ["TopLevel", "ClassImplementation", "ClassInterfaceMethods"]
 //
 Copy / Paste in Xcode:
 
-#pragma mark <#Title#>
+
+	#pragma mark - <#Section#>

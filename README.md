@@ -38,3 +38,22 @@ However, if you want to clear the existing snippets, and use the fresh ones, you
 ## Cheat Sheet
 		
 * pragma mark - `pm`
+* dispatch_async Pattern for Background Processing - `async`
+* Class Continuation - `continuation`
+* Documents Directory Path - `documents`
+* NSFetchedResultsControllerDelegate - `frcd`
+* ImageView - `imv`
+* init - `init`
+* KVO Setter - `kvo`
+* Library Directory Path - `library`
+* UIViewController Lifecycle - `lifecycle`
+* MFMailComposeViewController Initialization & Delegate - `mailcomp`
+* #pragma Mark - `mark`
+* NSLocalizedString - `nsl`
+* Shared Singleton - `shared`
+* Log Stack Trace - `stack`
+* __strong self - `strongself`
+* UIControlEventTouchUpInside - `tu`
+* UITableViewDelegate - `tvdel`
+* UITableViewDataSource - `tvds`
+* __weak self - `weakself`
