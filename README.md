@@ -37,10 +37,13 @@ However, if you want to clear the existing snippets, and use the fresh ones, you
 
 ## Cheat Sheet
 		
+* Memory Warning - `memw`
 * pragma mark - `pm`
+* Test Init - `testinit`
 * dispatch_async Pattern for Background Processing - `async`
 * Class Continuation - `continuation`
 * Documents Directory Path - `documents`
+* UIView Animation - `viewani`
 * NSFetchedResultsControllerDelegate - `frcd`
 * ImageView - `imv`
 * init - `init`
