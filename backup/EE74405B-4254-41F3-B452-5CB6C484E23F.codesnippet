@@ -3,45 +3,28 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>testinit</string>
+	<string>autolayout controller</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>TopLevel</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@interface &lt;#Class#&gt; ()
-
-
-
-@end
-
-SpecBegin(&lt;#Class#&gt;Spec)
-
-describe(@"&lt;#Class#&gt;Spec", ^{
-    __block &lt;#Class#&gt; *&lt;#instance#&gt;;
-    
-    beforeEach(^{
-        &lt;#instance#&gt; = ;
-    });
-    
-    it(@"", ^{
-        
-    });
-    
-    afterEach(^{
-        &lt;#instance#&gt; = nil;
-    });
-});
-
-SpecEnd</string>
+	<string>-(void)updateViewConstraints
+{
+    [super updateViewConstraints];
+    [self.view removeConstraints:self.view.constraints];
+    NSDictionary *metrics = @{@"":@};
+    NSDictionary *viewsDictionary = NSDictionaryOfVariableBindings();
+    [UIView animateWithDuration:0.33 animations:^{
+        [self.view layoutIfNeeded];
+    }];
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>882D93B8-3347-4AD5-83AB-20C17D1461CD</string>
+	<string>EE74405B-4254-41F3-B452-5CB6C484E23F</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
-	<key>IDECodeSnippetPlatformFamily</key>
-	<string>iphoneos</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Test Init</string>
+	<string>Autolayout Controller</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

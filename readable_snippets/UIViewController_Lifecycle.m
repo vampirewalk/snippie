@@ -12,10 +12,6 @@ Copy / Paste in Xcode:
 	    [super viewDidLoad];
 	}
 	
-	- (void)viewDidUnload {
-	    [super viewDidUnload];
-	}
-	
 	- (void)viewWillAppear:(BOOL)animated {
 	    [super viewWillAppear:animated];
 	}

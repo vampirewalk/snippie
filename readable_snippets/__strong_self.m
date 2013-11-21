@@ -5,5 +5,4 @@
 //
 Copy / Paste in Xcode:
 
-
-	__strong __typeof(&*weakSelf)strongSelf = <#weakSelf#>;
+__strong __typeof(&*weakSelf)strongSelf = <#weakSelf#>;

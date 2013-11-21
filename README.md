@@ -39,11 +39,13 @@ However, if you want to clear the existing snippets, and use the fresh ones, you
 		
 * Memory Warning - `memw`
 * pragma mark - `pm`
+* Autolayout UIView - `autolayout uiview`
 * Test Init - `testinit`
 * dispatch_async Pattern for Background Processing - `async`
 * Class Continuation - `continuation`
 * Documents Directory Path - `documents`
 * UIView Animation - `viewani`
+* Autolayout Controller - `autolayout controller`
 * NSFetchedResultsControllerDelegate - `frcd`
 * ImageView - `imv`
 * init - `init`
